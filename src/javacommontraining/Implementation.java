@@ -4,8 +4,8 @@ public class Implementation {
     public static void main(String[] args)
     {
         Calculator obj=new Calculator();
-        obj.setData();
+       /* obj.setData();
         int answer =obj.addition();
-        System.out.println(answer);
+        System.out.println(answer);*/
     }
 }
