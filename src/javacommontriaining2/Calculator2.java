@@ -3,7 +3,7 @@ import javacommontraining.Calculator;
 import java.util.Scanner;
 
 
-public class Person {
+public class Calculator2 {
     public static void main(String []args) {
         Calculator obj1 = new Calculator();
         Scanner sc= new Scanner(System.in);

@@ -4,3 +4,4 @@ interface Printer
     void getString(String text);
 
 }
+

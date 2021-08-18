@@ -1,6 +1,6 @@
-/*package javacommontriaining2;
-class UsePrintrer implements Printer{
-    @Override
+package javacommontriaining2;
+class InterfacePractice implements Printer{
+  @Override
     public void getString(String text)
     {
         System.out.println("Please enter what you learn: ");
@@ -10,10 +10,9 @@ class UsePrintrer implements Printer{
 
     public static void main(String []args)
     {
-       UsePrintrer obj1= new UsePrintrer();
+       InterfacePractice obj1= new InterfacePractice();
        String line1="Hello World";
        obj1.getString(line1);
     }
 
 }
-*/

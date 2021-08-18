@@ -1,6 +1,6 @@
 package javacommontriaining2;
 import java.util.Scanner;
-abstract class LambdaDemo implements Printer{
+class LambdaDemo {
 
     public static void main(String []args)
     {
@@ -9,5 +9,7 @@ abstract class LambdaDemo implements Printer{
         String line1=sc.nextLine();
         Printer ref1=(text) -> System.out.println(text);
         ref1.getString(line1);
+        
+
     }
 }
