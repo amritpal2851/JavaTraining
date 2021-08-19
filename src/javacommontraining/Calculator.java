@@ -1,6 +1,8 @@
 package javacommontraining;
 
 
+import java.sql.SQLOutput;
+
 public class Calculator {
 
     public void addition(int var1, int var2)
@@ -11,7 +13,7 @@ public class Calculator {
     {
         System.out.println(var1-var2);
     }
-   public void division(int var1,int var2)
+   public void division(double var1,double var2)
   {
       try{
           System.out.println(var1/var2);
@@ -26,4 +28,6 @@ public class Calculator {
   {
       System.out.println(var1*var2);
   }
+  public void end(){ System.exit(0);}
+
 }
