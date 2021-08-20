@@ -1,6 +1,5 @@
 package module3;
 import java.io.File;
-
 public class Delete {
     public static void main(String[] args) {
         File file=new File("D:\\JavaTrainig\\NewFile.txt");
@@ -8,7 +7,7 @@ public class Delete {
             System.out.println("File is deleted ");
         }
         else{
-            System.out.println("some occurd during deletion of file :( ");
+            System.out.println("some occurr during deletion of file :( ");
         }
 
 
